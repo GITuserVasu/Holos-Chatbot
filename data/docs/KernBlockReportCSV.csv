@@ -1,0 +1,11 @@
+﻿Crop,Cultivar,Soil_Type,Water_Requirements,Yield_kg_per_hectare,Season,Fertilizer_Recommendation,Best_Practices
+Wheat,CFIA-FD4,Loam,Medium,3500,Winter,NPK 15-15-15,Regular irrigation, pest monitoring
+Maize,Golden Bantam,Sandy,High,4200,Summer,NPK 20-10-10,Deep watering, nitrogen application
+Rice,Basmati,Clay,Very High,2800,Monsoon,NPK 12-6-6,Flood irrigation, weed control
+Soybean,Pioneer 93Y07,Loam,Medium,2200,Summer,NPK 10-20-10,No-till farming, rotation
+Cotton,Bt Cotton,Sandy,High,1800,Summer,NPK 15-15-15,Integrated pest management
+Tomato,Heirloom,Loam,Medium,4500,All Season,NPK 15-10-10,Staking, pruning
+Potato,Russet,Loam,Medium,3800,Winter,NPK 12-12-12,Hilling, disease prevention
+Onion,Red Creole,Sandy,Low,3200,Winter,NPK 10-10-10,Weed control, proper spacing
+Carrot,Nantes,Loam,Medium,2800,Winter,NPK 8-16-16,Deep soil preparation
+Cabbage,Green,Clay,Medium,2200,Winter,NPK 15-15-15,Cool weather, pest control

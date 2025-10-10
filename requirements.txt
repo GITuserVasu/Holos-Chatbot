@@ -1,0 +1,51 @@
+# ---------------------------------------------
+# 🌾 Holos Agri Assistant – Python Dependencies
+# ---------------------------------------------
+
+# Load environment variables (e.g., API keys, model names) from a .env file
+python-dotenv>=1.0
+
+# Framework for building RESTful backend APIs
+fastapi>=0.109,<0.116
+
+# ASGI server used to run FastAPI applications
+uvicorn>=0.25,<0.30
+
+# Data validation and serialization library (used for request/response models)
+pydantic>=2.6,<2.9
+
+# Helps manage app configurations using environment variables with Pydantic
+pydantic-settings
+
+# Core LangChain library – connects LLMs, tools, and custom logic
+langchain>=0.2.6,<0.3.0
+
+# LangChain wrapper for OpenAI – integrates GPT models for responses and embeddings
+langchain-openai>=0.1.8,<0.2.0
+
+# Community integrations for LangChain (document loaders, retrievers, etc.)
+langchain-community>=0.2.0,<0.3.0
+
+# LangGraph – used to build multi-node pipelines like the RAG + CSM graph
+langgraph>=0.1.15,<0.2.0
+
+# Tokenizer for LLM text processing (used for embeddings and message length)
+tiktoken>=0.6,<0.8
+
+# FAISS – high-performance vector database for document similarity search
+faiss-cpu>=1.8.0
+
+# DuckDB – in-memory analytical SQL engine (used for fast CSV queries)
+duckdb>=0.10,<0.11
+
+# Data manipulation and analysis (used for CSV summaries, stats, etc.)
+pandas>=2.2,<2.3
+
+# Apache Arrow – columnar memory format for efficient data handling with Pandas/DuckDB
+pyarrow>=15,<16
+
+# Structured logging library for better debugging and API event tracking
+structlog>=23,<24
+
+# Streamlit – frontend web app for user interaction (chat UI and context sidebar)
+streamlit>=1.32,<1.36

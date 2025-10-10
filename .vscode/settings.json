@@ -1,0 +1,22 @@
+{
+  // Use the project's virtual environment interpreter
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  // Backwards-compatible setting (some versions of the Python extension still read this)
+  "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+
+  // Help the language server locate project packages and modules
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.useImportHeuristic": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}"
+  ],
+
+  // Optionally increase the index depth if you have many packages.
+  // Use the array-of-objects format expected by the Python extension / Pylance.
+  "python.analysis.packageIndexDepths": [
+    {
+      "name": "",
+      "depth": 3
+    }
+  ]
+}

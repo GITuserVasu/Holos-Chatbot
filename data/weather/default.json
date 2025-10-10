@@ -1,0 +1,19 @@
+{
+  "temperature": {
+    "avg": 20.5,
+    "min": 10.0,
+    "max": 35.0
+  },
+  "precipitation": {
+    "annual": 600,
+    "seasonal": {
+      "spring": 150,
+      "summer": 100,
+      "fall": 200,
+      "winter": 150
+    }
+  },
+  "humidity": 65,
+  "wind_speed": 12.5,
+  "note": "Default weather data - replace with actual regional data"
+}

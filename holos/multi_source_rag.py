@@ -44,7 +44,7 @@ csm_runner = CSMRunner()     # For running crop simulation models
 # -------------------------------------------------------
 raw_model = os.getenv("MODEL_NAME", "gpt-4o-mini")
 try:
-    llm = ChatOpenAI(model=raw_model, temperature=0.2)
+    llm = ChatOpenAI(model=raw_model, temperature=1)
 except Exception:
     # Fallback model in case the environment variable fails
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.2)
@@ -185,33 +185,32 @@ def node_synthesize(state: GraphState) -> GraphState:
 # Each "node" represents a step, and edges define the flow.
 def build_graph():
     g = StateGraph(GraphState)
-
     # Add all processing nodes safely (ignore duplicates on reload)
     for name, fn in [
-        ("context", node_context),
-        ("docs", node_docs),
-        ("csv", node_csv),
-        ("weather", node_weather),
-        ("csm", node_csm),
-        ("synthesize", node_synthesize),
+        ("context1", node_context),
+        ("docs1", node_docs),
+        ("csv1", node_csv),
+        ("weather1", node_weather),
+        ("csm1", node_csm),
+        ("synthesize1", node_synthesize),
     ]:
         try:
             g.add_node(name, fn)
+            print("node", name)
         except ValueError:
             # Ignore if the node already exists (for hot reloads)
             pass
-
     # Define the data flow between nodes
-    g.add_edge(START, "context")                          # Start → context extraction
-    g.add_edge("context", "docs")                         # Context → document retrieval
-    g.add_edge("docs", "csv")                             # Docs → CSV data summary
-    g.add_edge("csv", "weather")                          # CSV → weather info
-    g.add_conditional_edges("weather", can_run_csm, {     # Weather → CSM or Synthesis
-        True: "csm", 
-        False: "synthesize"
+    g.add_edge(START, "context1")                          # Start → context extraction
+    g.add_edge("context1", "docs1")                         # Context → document retrieval
+    g.add_edge("docs1", "csv1")                             # Docs → CSV data summary
+    g.add_edge("csv1", "weather1")                          # CSV → weather info
+    g.add_conditional_edges("weather1", can_run_csm, {     # Weather → CSM or Synthesis
+        True: "csm1", 
+        False: "synthesize1"
     })
-    g.add_edge("csm", "synthesize")                       # CSM → synthesis
-    g.add_edge("synthesize", END)                         # End the pipeline
+    g.add_edge("csm1", "synthesize1")                       # CSM → synthesis
+    g.add_edge("synthesize1", END)                         # End the pipeline
 
     # Return the compiled graph ready for use
     return g.compile()

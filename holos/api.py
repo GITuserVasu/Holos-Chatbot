@@ -34,6 +34,7 @@ def root():
 # Chat endpoint - main function for chatbot requests
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
+    ##print("in chat")
     # Get previous session context (if any)
     prior = SESSION_CTX.get(req.session_id, {})
     # Merge new context with previous one
@@ -86,3 +87,8 @@ def chat(req: ChatRequest):
         followup=followup,                 # Follow-up prompt if needed
         sections=sections_obj              # Detailed result sections
     )
+    """ return ChatResponse(
+        session_id="1",
+        reply="test"
+    )
+ """

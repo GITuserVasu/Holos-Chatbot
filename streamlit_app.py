@@ -66,6 +66,7 @@ if user_input:
         }
 
         # Send the message to the backend API
+        print(API_URL)
         r = requests.post(API_URL, json=payload, timeout=120)
         r.raise_for_status()  # Raise error if the request failed
 

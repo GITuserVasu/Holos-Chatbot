@@ -84,14 +84,16 @@ class RAGRetriever:
             DirectoryLoader(self.docs_root, glob="**/*.docx", loader_cls=TextLoader, show_progress=True),
         ]
 
-        print(" In load or build ..in rag")
+        
 
         # Try loading files from each loader (they will walk subfolders)
         for ld in loaders:
             try:
+                print(" In load or build ..in rag...trying to load")
                 docs.extend(ld.load())
             except Exception:
                 # If a loader fails for some reason, skip it and continue
+                print(" In load or build ..in rag...loader failed")
                 pass
 
         # If no documents found, return None (no retriever)

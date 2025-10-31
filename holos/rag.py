@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader, DirectoryLoader, PyPDFLoader
+from langchain_community.document_loaders import UnstructuredWordDocumentLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from streamlit.runtime import state
@@ -81,7 +82,8 @@ class RAGRetriever:
             DirectoryLoader(self.docs_root, glob="**/*.txt", loader_cls=TextLoader,silent_errors=True, show_progress=True),
             DirectoryLoader(self.docs_root, glob="**/*.md", loader_cls=TextLoader,silent_errors=True, show_progress=True),
             DirectoryLoader(self.docs_root, glob="**/*.pdf", loader_cls=PyPDFLoader, silent_errors=True, show_progress=True),
-            DirectoryLoader(self.docs_root, glob="**/*.docx", loader_cls=TextLoader,silent_errors=True, show_progress=True),
+            #DirectoryLoader(self.docs_root, glob="**/*.docx", loader_cls=TextLoader,silent_errors=True, show_progress=True),
+            DirectoryLoader(self.docs_root, glob="**/*.docx", loader_cls=UnstructuredWordDocumentLoader,silent_errors=True, show_progress=True),
         ]
 
         

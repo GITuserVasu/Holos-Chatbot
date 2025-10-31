@@ -91,13 +91,13 @@ class RAGRetriever:
         # Try loading files from each loader (they will walk subfolders)
         for ld in loaders:
             try:
-                print(ld , " In load or build ..in rag...trying to load")
+                #print(ld , " In load or build ..in rag...trying to load")
                 docs.extend(ld.load())
             except Exception:
                 # If a loader fails for some reason, skip it and continue
-                print(ld, " In load or build ..in rag...loader failed")
-                #pass
-                continue
+                #print(ld, " In load or build ..in rag...loader failed")
+                pass
+                #continue
 
         # If no documents found, return None (no retriever)
         if not docs:

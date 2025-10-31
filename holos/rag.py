@@ -94,7 +94,8 @@ class RAGRetriever:
             except Exception:
                 # If a loader fails for some reason, skip it and continue
                 print(ld, " In load or build ..in rag...loader failed")
-                pass
+                #pass
+                continue
 
         # If no documents found, return None (no retriever)
         if not docs:

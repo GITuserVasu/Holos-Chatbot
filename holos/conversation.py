@@ -78,15 +78,19 @@ def find_missing(ctx: Dict[str, Any]) -> List[str]:
 # Suggest the next question the chatbot should ask the user.
 # If critical info is missing, it asks directly.
 # Otherwise, it prompts for extra details like region or season.
+# def next_followup(missing: List[str], ctx: Dict[str, Any]) -> str:
+#     # If all required info is available
+#     if not missing:
+#         if not ctx.get("region"):
+#             return "Which state are you in? (California or Texas)"
+#         elif not ctx.get("season"):
+#             return "Which season or target planting window are you considering?"
+#         return ""
 def next_followup(missing: List[str], ctx: Dict[str, Any]) -> str:
-    # If all required info is available
     if not missing:
-        # Ask for region or season to refine answers
-        if not ctx.get("region"):
-            return "Which state are you in? (California or Texas)"
-        if not ctx.get("season"):
-            return "Which season or target planting window are you considering?"
-        return ""  # Nothing else needed
+        return ""
+
+
 
     # If something critical is missing (like 'crop')
     prompts = {

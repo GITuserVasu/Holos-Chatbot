@@ -5,6 +5,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader, DirectoryLoader, PyPDFLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
+from streamlit.runtime import state
+
+
+from dotenv import load_dotenv
+load_dotenv()  # ensures .env is read even in standalone runs
 
 # -------------------------------------------------------
 # Configuration
@@ -29,11 +34,25 @@ DOCS_PATH = "data/docs/"
 # It builds or loads a FAISS vector database using text embeddings
 # and retrieves the most relevant documents for a given query.
 class RAGRetriever:
+    # os.environ["CURRENT_CROP"] = state["context"].get("crop", "")
+    # os.environ["CURRENT_REGION"] = state["context"].get("region", "")
     def __init__(self, docs_path: str = DOCS_PATH):
         # Use a single data root and scan it recursively so we don't rely on
         # a hard-coded, ordered list of folders. This ensures all data files
         # under the data tree are discovered and indexed.
-        self.docs_root = docs_path if docs_path and os.path.exists(docs_path) else "data"
+        crop = (os.getenv("CURRENT_CROP") or "").lower()
+        region = (os.getenv("CURRENT_REGION") or "").lower()
+
+
+        if crop and region:
+            crop_region_path = os.path.join(docs_path, crop, region)
+        elif crop:
+            crop_region_path = os.path.join(docs_path, crop)
+        else:
+            crop_region_path = docs_path
+
+        self.docs_root = crop_region_path if os.path.exists(crop_region_path) else docs_path
+
         # Initialize OpenAI embedding model
         self.embeddings = OpenAIEmbeddings(model=EMBED_MODEL)
         # Load an existing FAISS index or build a new one

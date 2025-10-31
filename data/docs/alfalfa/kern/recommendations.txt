@@ -1,0 +1,182 @@
+
+Holos Recommendations for total area of 21141080296 sq m over sub-blocks of area 1000000000 sq m
+--------------------------------------------------------
+
+Treatment Name of AuI+60N CFIA-FD4 34d fix is recommended to (maximize) Yield/App Nitrogen Prod(kg/kg) at -99
+
+Application Schedule
+Apply 60.0 kg of N2, 4 days after planting date, at 1.0 meters depth
+Apply 60.0 kg of N2, 369 days after planting date, at 1.0 meters depth
+--------------------------------------------------------
+
+Treatment Name of Cavero CUF-FD9-34df is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm) at 17
+
+Application Schedule
+Apply 25.0 mm of water/furrow 31 days after planting date
+Apply 24.0 mm of water/furrow 33 days after planting date
+Apply 29.0 mm of water/furrow 51 days after planting date
+Apply 29.0 mm of water/furrow 53 days after planting date
+Apply 35.0 mm of water/furrow 58 days after planting date
+Apply 29.0 mm of water/furrow 60 days after planting date
+Apply 34.0 mm of water/furrow 61 days after planting date
+Apply 29.0 mm of water/furrow 62 days after planting date
+Apply 36.0 mm of water/furrow 73 days after planting date
+Apply 20.0 mm of water/furrow 75 days after planting date
+Apply 26.0 mm of water/furrow 81 days after planting date
+Apply 13.0 mm of water/furrow 82 days after planting date
+Apply 31.0 mm of water/furrow 87 days after planting date
+Apply 30.0 mm of water/furrow 88 days after planting date
+Apply 26.0 mm of water/furrow 90 days after planting date
+Apply 15.0 mm of water/furrow 101 days after planting date
+Apply 30.0 mm of water/furrow 104 days after planting date
+Apply 44.0 mm of water/furrow 108 days after planting date
+Apply 15.0 mm of water/furrow 111 days after planting date
+Apply 23.0 mm of water/furrow 115 days after planting date
+Apply 30.0 mm of water/furrow 116 days after planting date
+Apply 30.0 mm of water/furrow 118 days after planting date
+Apply 25.0 mm of water/furrow 122 days after planting date
+Apply 16.0 mm of water/furrow 123 days after planting date
+Apply 33.0 mm of water/furrow 125 days after planting date
+Apply 33.0 mm of water/furrow 139 days after planting date
+Apply 28.0 mm of water/furrow 143 days after planting date
+Apply 31.0 mm of water/furrow 151 days after planting date
+Apply 18.0 mm of water/furrow 157 days after planting date
+Apply 23.0 mm of water/furrow 344 days after planting date
+Apply 23.0 mm of water/furrow 375 days after planting date
+Apply 13.0 mm of water/furrow 375 days after planting date
+Apply 10.0 mm of water/furrow 379 days after planting date
+Apply 23.0 mm of water/furrow 379 days after planting date
+Apply 25.0 mm of water/furrow 382 days after planting date
+Apply 14.0 mm of water/furrow 382 days after planting date
+Apply 14.0 mm of water/furrow 396 days after planting date
+Apply 25.0 mm of water/furrow 397 days after planting date
+Apply 25.0 mm of water/furrow 407 days after planting date
+Apply 21.0 mm of water/furrow 409 days after planting date
+Apply 21.0 mm of water/furrow 411 days after planting date
+Apply 25.0 mm of water/furrow 423 days after planting date
+Apply 15.0 mm of water/furrow 425 days after planting date
+Apply 14.0 mm of water/furrow 429 days after planting date
+Apply 25.0 mm of water/furrow 432 days after planting date
+Apply 25.0 mm of water/furrow 436 days after planting date
+Apply 28.0 mm of water/furrow 452 days after planting date
+Apply 23.0 mm of water/furrow 457 days after planting date
+Apply 29.0 mm of water/furrow 460 days after planting date
+Apply 25.0 mm of water/furrow 464 days after planting date
+Apply 20.0 mm of water/furrow 467 days after planting date
+Apply 24.0 mm of water/furrow 471 days after planting date
+Apply 25.0 mm of water/furrow 472 days after planting date
+Apply 19.0 mm of water/furrow 474 days after planting date
+Apply 25.0 mm of water/furrow 478 days after planting date
+Apply 25.0 mm of water/furrow 492 days after planting date
+Apply 30.0 mm of water/furrow 495 days after planting date
+Apply 28.0 mm of water/furrow 499 days after planting date
+Apply 20.0 mm of water/furrow 502 days after planting date
+Apply 30.0 mm of water/furrow 506 days after planting date
+Apply 24.0 mm of water/furrow 509 days after planting date
+Apply 16.0 mm of water/furrow 520 days after planting date
+Apply 20.0 mm of water/furrow 702 days after planting date
+Apply 20.0 mm of water/furrow 724 days after planting date
+Apply 30.0 mm of water/furrow 730 days after planting date
+Apply 25.0 mm of water/furrow 733 days after planting date
+Apply 33.0 mm of water/furrow 738 days after planting date
+Apply 19.0 mm of water/furrow 740 days after planting date
+Apply 27.0 mm of water/furrow 744 days after planting date
+Apply 26.0 mm of water/furrow 760 days after planting date
+Apply 24.0 mm of water/furrow 766 days after planting date
+Apply 30.0 mm of water/furrow 768 days after planting date
+Apply 30.0 mm of water/furrow 773 days after planting date
+Apply 35.0 mm of water/furrow 774 days after planting date
+Apply 31.0 mm of water/furrow 775 days after planting date
+Apply 24.0 mm of water/furrow 787 days after planting date
+Apply 22.0 mm of water/furrow 793 days after planting date
+Apply 35.0 mm of water/furrow 800 days after planting date
+Apply 15.0 mm of water/furrow 803 days after planting date
+Apply 26.0 mm of water/furrow 807 days after planting date
+Apply 39.0 mm of water/furrow 810 days after planting date
+Apply 35.0 mm of water/furrow 823 days after planting date
+Apply 38.0 mm of water/furrow 828 days after planting date
+Apply 35.0 mm of water/furrow 830 days after planting date
+Apply 67.0 mm of water/furrow 835 days after planting date
+Apply 15.0 mm of water/furrow 836 days after planting date
+Apply 36.0 mm of water/furrow 838 days after planting date
+Apply 33.0 mm of water/furrow 842 days after planting date
+Apply 30.0 mm of water/furrow 845 days after planting date
+Apply 26.0 mm of water/furrow 857 days after planting date
+Apply 17.0 mm of water/furrow 863 days after planting date
+Apply 19.0 mm of water/furrow 870 days after planting date
+Apply 25.0 mm of water/furrow 877 days after planting date
+Apply 21.0 mm of water/furrow 472 days after planting date
+Apply 36.0 mm of water/furrow 484 days after planting date
+Apply 25.0 mm of water/furrow 490 days after planting date
+Apply 25.0 mm of water/furrow 497 days after planting date
+Apply 22.0 mm of water/furrow 504 days after planting date
+--------------------------------------------------------
+
+Cultivar of CUF-FD9 is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm) at 16
+--------------------------------------------------------
+
+Cultivar of CUF-FD9 is recommended to (maximize) Unadjusted Yield (kg/ha)) at 10156
+--------------------------------------------------------
+
+Cultivar of CUF-FD9 is recommended for 
+	Water Used (mm) less-than 690
+	Nitrogen Used (kg/ha) less-than 100
+ to (maximize) Unadjusted Yield (kg/ha)) at 10156
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal ASD16
+	Nitrogen Used (kg/ha) less-than 100
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal ASD16
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal BPT5204
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal ADT45
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal ADT36
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal CO51
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal Phytogen 350Ca1
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal SVPR4
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal Deltapine 77
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal K12
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal EVANS
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal ADT43
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal cr1009
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------
+Planting Date of 13/05/2020 is recommended for 
+	Cultivar equal CO50
+ to (maximize) Unadjusted Yield (kg/ha))
+--------------------------------------------------------

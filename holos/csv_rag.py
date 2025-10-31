@@ -23,26 +23,30 @@ class CSVEngine:
     # If a crop name (like rice or corn) appears in the filename,
     # that file is selected. Otherwise, it picks the first CSV found.
     def _pick_file(self, context: Dict[str, Any]) -> Optional[str]:
-        crop = (context.get("crop") or "").lower()  # Get crop name in lowercase
+        crop = (context.get("crop") or "").lower()
+        region = (context.get("region") or "").lower()
 
-        # Check if the directory exists
-        if not os.path.exists(self.csv_dir):
+        # --- New: detect subfolder by crop and region ---
+        if crop and region:
+            search_dir = os.path.join(self.csv_dir, crop, region)
+        elif crop:
+            search_dir = os.path.join(self.csv_dir, crop)
+        else:
+            search_dir = self.csv_dir
+
+        if not os.path.exists(search_dir):
+            search_dir = self.csv_dir
+
+        # Now continue normally
+        files = [f for f in os.listdir(search_dir) if f.lower().endswith(".csv")]
+        if not files:
             return None
 
-        # Get all CSV files in the directory
-        files = [f for f in os.listdir(self.csv_dir) if f.lower().endswith(".csv")]
-        if not files:
-            return None  # Return None if no CSV files exist
+        for f in files:
+            if crop and crop in f.lower():
+                return os.path.join(search_dir, f)
+        return os.path.join(search_dir, files[0])
 
-        # Try to find a file matching the crop name (e.g., rice.csv)
-        if crop:
-            for f in files:
-                if crop in f.lower():
-                    # Return the matched file path
-                    return os.path.join(self.csv_dir, f)
-
-        # If no crop match found, just pick the first CSV file
-        return os.path.join(self.csv_dir, files[0])
 
     # ---------------------------------------------------
     # Function: summarize

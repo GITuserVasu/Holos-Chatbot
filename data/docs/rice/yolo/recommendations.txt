@@ -1,0 +1,77 @@
+
+Holos Recommendations for total area of 168843 sq m over sub-blocks of area 100000 sq m
+--------------------------------------------------------
+
+Treatment Name of Basmati____0kg__Fx2 is recommended to (maximize) Yield/App Nitrogen Prod(kg/kg) at -4
+--------------------------------------------------------
+
+Treatment Name of Japanese__2R__Flood1 is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm) at 0
+
+Application Schedule
+Apply 77.0 mm of water/furrow -5 days after planting date
+Apply 27.0 mm of water/furrow 0 days after planting date
+Apply 26.0 mm of water/furrow 3 days after planting date
+Apply 26.0 mm of water/furrow 7 days after planting date
+Apply 25.0 mm of water/furrow 13 days after planting date
+Apply 28.0 mm of water/furrow 20 days after planting date
+Apply 27.0 mm of water/furrow 24 days after planting date
+Apply 31.0 mm of water/furrow 31 days after planting date
+Apply 14.0 mm of water/furrow 35 days after planting date
+Apply 11.0 mm of water/furrow 38 days after planting date
+Apply 28.0 mm of water/furrow 42 days after planting date
+Apply 23.0 mm of water/furrow 45 days after planting date
+Apply 28.0 mm of water/furrow 48 days after planting date
+Apply 8.0 mm of water/furrow 50 days after planting date
+Apply 17.0 mm of water/furrow 53 days after planting date
+Apply 18.0 mm of water/furrow 56 days after planting date
+Apply 11.0 mm of water/furrow 58 days after planting date
+Apply 10.0 mm of water/furrow 60 days after planting date
+Apply 8.0 mm of water/furrow 62 days after planting date
+Apply 15.0 mm of water/furrow 64 days after planting date
+Apply 13.0 mm of water/furrow 66 days after planting date
+Apply 27.0 mm of water/furrow 69 days after planting date
+Apply 16.0 mm of water/furrow 71 days after planting date
+Apply 19.0 mm of water/furrow 74 days after planting date
+Apply 23.0 mm of water/furrow 83 days after planting date
+Apply 22.0 mm of water/furrow 87 days after planting date
+Apply 24.0 mm of water/furrow 92 days after planting date
+Apply 15.0 mm of water/furrow 94 days after planting date
+Apply 14.0 mm of water/furrow 96 days after planting date
+Apply 11.0 mm of water/furrow 98 days after planting date
+Apply 19.0 mm of water/furrow 101 days after planting date
+Apply 5.0 mm of water/furrow 104 days after planting date
+Apply 14.0 mm of water/furrow 105 days after planting date
+Apply 20.0 mm of water/furrow 108 days after planting date
+Apply 15.0 mm of water/furrow 114 days after planting date
+--------------------------------------------------------
+
+Cultivar of N.AMERICAN is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm) at 0
+--------------------------------------------------------
+
+Cultivar of N.AMERICAN is recommended to (maximize) Unadjusted Yield (kg/ha)) at 207
+--------------------------------------------------------
+
+Cultivar of N.AMERICAN is recommended for 
+	Water Used (mm) less-than 690
+	Nitrogen Used (kg/ha) less-than 100
+ to (maximize) Unadjusted Yield (kg/ha)) at 207
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------

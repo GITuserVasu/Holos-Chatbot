@@ -1,15 +1,20 @@
 import os
+from pathlib import Path
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .models import ChatRequest, ChatResponse, AssistantSections
-from .multi_source_rag import build_graph
+from .simple_rag import process_chat
+
+# Load environment variables from .env file in the project root
+env_path = Path(__file__).parent.parent / '.env'
+load_dotenv(dotenv_path=env_path)
 
 # Create FastAPI app instance
 app = FastAPI(title="Holos Agri Assistant")
 
 # Allow frontend (like Streamlit) to connect to backend (CORS setup)
-##origins = os.getenv("CORS_ORIGINS", "http://localhost:8501").split(",")
-origins = os.getenv("CORS_ORIGINS", "http://172.31.23.62:8501").split(",")
+origins = os.getenv("CORS_ORIGINS", "http://localhost:8501").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,          # Which websites can connect
@@ -18,9 +23,10 @@ app.add_middleware(
     allow_headers=["*"],            # Allow all headers
 )
 
-# Variables to store graph and session data
-graph = None
+# Store session data
 SESSION_CTX = {}
+CHAT_HISTORY = {}
+
 
 # Root API endpoint (used to check if server is running)
 @app.get("/")
@@ -28,34 +34,32 @@ def root():
     return {
         "name": "Holos Agri Assistant",
         "status": "ok",
-        "version": "langgraph",
+        "version": "simple",
         "rag_available": True
     }
 
 # Chat endpoint - main function for chatbot requests
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
-    ##print("in chat")
-    # Get previous session context (if any)
+    # Get and merge context
     prior = SESSION_CTX.get(req.session_id, {})
-    # Merge new context with previous one
     merged_context = {**prior, **(req.context or {})}
 
-    # Build the RAG (Retrieval-Augmented Generation) graph only once
-    # This prevents errors during import and speeds up future requests
-    global graph
-    if graph is None:
-        graph = build_graph()
+    # Process the chat message
+    # --- Maintain short-term memory (conversation history) ---
+    history = CHAT_HISTORY.get(req.session_id, [])
 
-    # Prepare input for the RAG model
-    state_in = {
-        "session_id": req.session_id,
-        "message": req.message,
-        "context": merged_context
-    }
+    state_out = process_chat(
+        req.message,
+        req.session_id,
+        merged_context,
+        history
+    )
 
-    # Run the graph (process input and get response)
-    state_out = graph.invoke(state_in)
+    # Save updated history (keep last 4 exchanges)
+    history.append({"user": req.message, "bot": state_out.get("reply", "")})
+    CHAT_HISTORY[req.session_id] = history[-4:]
+
 
     # Save updated context for the current session
     if "context" in state_out:
@@ -64,7 +68,8 @@ def chat(req: ChatRequest):
     # Extract follow-up questions or missing info
     missing = state_out.get("missing") or []
     followup = state_out.get("followup") or (" ".join(missing) if missing else None)
-    # Extract detailed response sections (like weather, data insights, etc.)
+    
+    # Extract detailed response sections
     sections = state_out.get("sections") or {}
 
     # Validate and safely create the AssistantSections object
@@ -88,8 +93,3 @@ def chat(req: ChatRequest):
         followup=followup,                 # Follow-up prompt if needed
         sections=sections_obj              # Detailed result sections
     )
-    """ return ChatResponse(
-        session_id="1",
-        reply="test"
-    )
- """

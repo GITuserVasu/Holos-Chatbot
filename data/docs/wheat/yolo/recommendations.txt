@@ -1,0 +1,69 @@
+
+Holos Recommendations for total area of 51215891 sq m over sub-blocks of area 10000 sq m
+--------------------------------------------------------
+
+Treatment Name of IRRI HI   - 60 KG N/HA is recommended to (maximize) Yield/App Nitrogen Prod(kg/kg) at 96
+--------------------------------------------------------
+
+Treatment Name of IRRI LOW - 180 KG N/HA SP is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm) at 66
+--------------------------------------------------------
+
+Cultivar of Yecora_Rojo is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm))
+--------------------------------------------------------
+
+Cultivar of NEWTON is recommended to (maximize) Unadjusted Yield (kg/ha)))
+--------------------------------------------------------
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal ASD16
+	Nitrogen Used (kg/ha) less-than 100
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal ASD16
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal BPT5204
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal ADT45
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal ADT36
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal CO51
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal SVPR4
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal Deltapine 77
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal K12
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal EVANS
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal ADT43
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal cr1009
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------
+Planting Date of 15/10/2024 is recommended for 
+	Cultivar equal CO50
+ to (maximize) Unadjusted Yield (kg/ha)) at undecided objective value
+--------------------------------------------------------

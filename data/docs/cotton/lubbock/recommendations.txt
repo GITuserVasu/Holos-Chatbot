@@ -1,0 +1,41 @@
+
+Holos Recommendations for total area of 569504 sq m over sub-blocks of area 10000 sq m
+--------------------------------------------------------
+
+Treatment Name of 50%UAN+CC is recommended to (maximize) Yield/App Nitrogen Prod(kg/kg) at 3
+
+Application Schedule
+Apply 56.0 kg of N2, -51 days after planting date, at 15.0 meters depth
+--------------------------------------------------------
+
+Treatment Name of Manure+CC is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm) at 1
+--------------------------------------------------------
+
+Cultivar of Phytogen 350Ca1 is recommended to (maximize) Yield/App Irrigation Prod(kg/ha/mm))
+--------------------------------------------------------
+
+Cultivar of Phytogen 350Ca1 is recommended to (maximize) Unadjusted Yield (kg/ha)))
+--------------------------------------------------------
+
+Cultivar of Phytogen 350Ca1 is recommended for 
+	Water Used (mm) less-than 690
+	Nitrogen Used (kg/ha) less-than 100
+ to (maximize) Unadjusted Yield (kg/ha)))
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+Planting Date of 03/07/2025 is recommended for 
+	Cultivar equal Phytogen 350Ca1
+ to (maximize) Unadjusted Yield (kg/ha)) at 625
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------

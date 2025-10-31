@@ -9,6 +9,7 @@ import os, requests, streamlit as st
 # The FastAPI backend endpoint that handles chat requests.
 # Default: runs locally on port 8001 unless overridden by environment variable.
 API_URL = os.getenv("API_URL", "http://localhost:8001/chat")
+API_URL = "http://172.31.23.62:8001/chat"
 
 # -------------------------------------------------------
 # Streamlit Page Setup

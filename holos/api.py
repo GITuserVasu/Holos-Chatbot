@@ -14,7 +14,8 @@ load_dotenv(dotenv_path=env_path)
 app = FastAPI(title="Holos Agri Assistant")
 
 # Allow frontend (like Streamlit) to connect to backend (CORS setup)
-origins = os.getenv("CORS_ORIGINS", "http://localhost:8501").split(",")
+##origins = os.getenv("CORS_ORIGINS", "http://localhost:8501").split(",")
+origins = os.getenv("CORS_ORIGINS", "http://172.31.23.62:8501").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,          # Which websites can connect

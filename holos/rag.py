@@ -81,7 +81,7 @@ class RAGRetriever:
             DirectoryLoader(self.docs_root, glob="**/*.txt", loader_cls=TextLoader, show_progress=True),
             DirectoryLoader(self.docs_root, glob="**/*.md", loader_cls=TextLoader, show_progress=True),
             #DirectoryLoader(self.docs_root, glob="**/*.pdf", loader_cls=PyPDFLoader, show_progress=True),
-            DirectoryLoader(self.docs_root, glob="**/*.docx", loader_cls=TextLoader, show_progress=True),
+            #DirectoryLoader(self.docs_root, glob="**/*.docx", loader_cls=TextLoader, show_progress=True),
         ]
 
         
